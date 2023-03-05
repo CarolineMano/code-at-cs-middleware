@@ -29,6 +29,12 @@ D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\
 D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.pdb
 D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.genruntimeconfig.cache
 D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\ref\Ada.Api.Presentation.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.csproj.AssemblyReference.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.AssemblyInfoInputs.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.AssemblyInfo.cs
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.csproj.CoreCompileInputs.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.MvcApplicationPartsAssemblyInfo.cache
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\appsettings.Development.json
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\appsettings.json
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\Ada.Api.Presentation.exe
@@ -42,15 +48,10 @@ D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\b
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\Ada.Aluno.Application.dll
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\Ada.Aluno.Core.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\Ada.Aluno.Infra.dll
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\Ada.Aluno.Application.pdb
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\Ada.Aluno.Core.pdb
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.csproj.AssemblyReference.cache
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.GeneratedMSBuildEditorConfig.editorconfig
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.AssemblyInfoInputs.cache
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.AssemblyInfo.cs
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.csproj.CoreCompileInputs.cache
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.MvcApplicationPartsAssemblyInfo.cs
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.MvcApplicationPartsAssemblyInfo.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\Ada.Aluno.Infra.pdb
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\staticwebassets.build.json
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\staticwebassets.development.json
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\scopedcss\bundle\Ada.Api.Presentation.styles.css

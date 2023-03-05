@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Ada.Aluno.Application/1.0.0": {
         "dependencies": {
-          "Ada.Aluno.Core": "1.0.0"
+          "Ada.Aluno.Core": "1.0.0",
+          "Ada.Aluno.Infra": "1.0.0"
         },
         "runtime": {
           "Ada.Aluno.Application.dll": {}
@@ -17,6 +18,14 @@
       "Ada.Aluno.Core/1.0.0": {
         "runtime": {
           "Ada.Aluno.Core.dll": {}
+        }
+      },
+      "Ada.Aluno.Infra/1.0.0": {
+        "dependencies": {
+          "Ada.Aluno.Core": "1.0.0"
+        },
+        "runtime": {
+          "Ada.Aluno.Infra.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "Ada.Aluno.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ada.Aluno.Infra/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

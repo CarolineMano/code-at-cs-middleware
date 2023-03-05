@@ -17,6 +17,15 @@ namespace Ada.Aluno.Core
             Validate();
         }
 
+        public Aluno(Guid id, string nome, string cidade, string? nomeMae) : base()
+        {
+            Id = id;
+            Nome = nome;
+            Cidade = cidade;
+            NomeMae = nomeMae;
+            Validate();
+        }
+
         public Guid Id { get; private set; }
         public string Nome { get; private set; }
         public string Cidade { get; private set; }

@@ -11,10 +11,16 @@ namespace Ada.Api.Presentation.Controllers
     public class PessoasController : ControllerBase
     {
         private readonly ICriarAlunoUseCase _criarAlunoUseCase;
+        private readonly IDeletarAlunoUseCase _deletarAlunoUseCase;
+        private readonly IEditarAlunoUseCase _editarAlunoUseCase;
+        private readonly IListarAlunoPorIdUseCase _listarAlunoPorIdUseCase;
 
-        public PessoasController(ICriarAlunoUseCase criarAlunoUseCase)
+        public PessoasController(ICriarAlunoUseCase criarAlunoUseCase, IDeletarAlunoUseCase deletarAlunoUseCase, IEditarAlunoUseCase editarAlunoUseCase, IListarAlunoPorIdUseCase listarAlunoPorIdUseCase)
         {
             _criarAlunoUseCase = criarAlunoUseCase;
+            _deletarAlunoUseCase = deletarAlunoUseCase;
+            _editarAlunoUseCase = editarAlunoUseCase;
+            _listarAlunoPorIdUseCase = listarAlunoPorIdUseCase;
         }
         // GET: api/<AlunosController>
         [HttpGet]
@@ -25,9 +31,14 @@ namespace Ada.Api.Presentation.Controllers
 
         // GET api/<AlunosController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(Guid id)
         {
-            return "value";
+            var response = _listarAlunoPorIdUseCase.Execute(id);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                return StatusCode((int)response.StatusCode, response.Data);
+
+            return StatusCode((int)response.StatusCode, response.Messages);
         }
 
         // POST api/<AlunosController>
@@ -44,14 +55,26 @@ namespace Ada.Api.Presentation.Controllers
 
         // PUT api/<AlunosController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(Guid id, CriarAlunoRequest request)
         {
+            var response = _editarAlunoUseCase.Execute(id, request);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                return StatusCode((int)response.StatusCode, response.Data);
+
+            return StatusCode((int)response.StatusCode, response.Messages);
         }
 
         // DELETE api/<AlunosController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(Guid id)
         {
+            var response = _deletarAlunoUseCase.Execute(id);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                return StatusCode((int)response.StatusCode);
+
+            return StatusCode((int)response.StatusCode, response.Messages);
         }
     }
 }

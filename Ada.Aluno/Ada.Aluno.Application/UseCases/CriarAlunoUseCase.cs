@@ -1,13 +1,15 @@
 ﻿using Ada.Aluno.Application.Interfaces;
 using Ada.Aluno.Application.Requests;
+using Ada.Aluno.Infra;
 
 namespace Ada.Aluno.Application.UseCases
 {
     public class CriarAlunoUseCase : ICriarAlunoUseCase
     {
-        public CriarAlunoUseCase()
+        private readonly IPessoaRepository _pessoaRepository;
+        public CriarAlunoUseCase(IPessoaRepository pessoaRepository)
         {
-
+            _pessoaRepository = pessoaRepository;
         }
 
         public ApiResponse Execute(CriarAlunoRequest request)
@@ -27,6 +29,8 @@ namespace Ada.Aluno.Application.UseCases
                         Messages = aluno.Messages
                     };
                 }
+
+                _pessoaRepository.Add(aluno);
 
                 return new ApiResponse
                 {

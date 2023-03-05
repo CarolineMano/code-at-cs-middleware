@@ -1,0 +1,15 @@
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\bin\Debug\net6.0\Ada.Aluno.Infra.deps.json
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\bin\Debug\net6.0\Ada.Aluno.Infra.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\bin\Debug\net6.0\Ada.Aluno.Infra.pdb
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\bin\Debug\net6.0\Ada.Aluno.Core.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\bin\Debug\net6.0\Ada.Aluno.Core.pdb
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.csproj.AssemblyReference.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.AssemblyInfoInputs.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.AssemblyInfo.cs
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.csproj.CoreCompileInputs.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.csproj.CopyComplete
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\refint\Ada.Aluno.Infra.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.pdb
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\ref\Ada.Aluno.Infra.dll

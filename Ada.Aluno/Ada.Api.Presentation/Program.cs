@@ -1,5 +1,6 @@
 using Ada.Aluno.Application.Interfaces;
 using Ada.Aluno.Application.UseCases;
+using Ada.Aluno.Infra;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICriarAlunoUseCase, CriarAlunoUseCase>();
+builder.Services.AddScoped<IDeletarAlunoUseCase, DeletarAlunoUseCase>();
+builder.Services.AddScoped<IEditarAlunoUseCase, EditarAlunoUseCase>();
+builder.Services.AddScoped<IListarAlunoPorIdUseCase, ListarAlunoPorIdUseCase>();
+builder.Services.AddSingleton<IPessoaRepository, PessoaRepository>();
 
 var app = builder.Build();
 
