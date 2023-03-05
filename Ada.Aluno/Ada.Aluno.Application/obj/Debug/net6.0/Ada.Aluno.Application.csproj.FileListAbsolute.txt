@@ -1,0 +1,30 @@
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Application.deps.json
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Application.dll
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Application.pdb
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Core.dll
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Core.pdb
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.csproj.AssemblyReference.cache
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.AssemblyInfoInputs.cache
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.AssemblyInfo.cs
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.csproj.CoreCompileInputs.cache
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.csproj.CopyComplete
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.dll
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\refint\Ada.Aluno.Application.dll
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.pdb
+D:\Meus Documentos\Cursos Online\Code at CS\Fase 2\Módulo 04\Aula 03\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\ref\Ada.Aluno.Application.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Application.deps.json
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Application.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Application.pdb
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Core.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Core.pdb
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.csproj.AssemblyReference.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.AssemblyInfoInputs.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.AssemblyInfo.cs
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.csproj.CoreCompileInputs.cache
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.csproj.CopyComplete
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\refint\Ada.Aluno.Application.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.pdb
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\ref\Ada.Aluno.Application.dll
