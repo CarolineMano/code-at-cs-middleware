@@ -14,19 +14,26 @@ namespace Ada.Api.Presentation.Controllers
         private readonly IDeletarAlunoUseCase _deletarAlunoUseCase;
         private readonly IEditarAlunoUseCase _editarAlunoUseCase;
         private readonly IListarAlunoPorIdUseCase _listarAlunoPorIdUseCase;
+        private readonly IListarAlunosUseCase _listarAlunosUseCase;
 
-        public PessoasController(ICriarAlunoUseCase criarAlunoUseCase, IDeletarAlunoUseCase deletarAlunoUseCase, IEditarAlunoUseCase editarAlunoUseCase, IListarAlunoPorIdUseCase listarAlunoPorIdUseCase)
+        public PessoasController(ICriarAlunoUseCase criarAlunoUseCase, IDeletarAlunoUseCase deletarAlunoUseCase, IEditarAlunoUseCase editarAlunoUseCase, IListarAlunoPorIdUseCase listarAlunoPorIdUseCase, IListarAlunosUseCase listarAlunosUseCase)
         {
             _criarAlunoUseCase = criarAlunoUseCase;
             _deletarAlunoUseCase = deletarAlunoUseCase;
             _editarAlunoUseCase = editarAlunoUseCase;
             _listarAlunoPorIdUseCase = listarAlunoPorIdUseCase;
+            _listarAlunosUseCase = listarAlunosUseCase; 
         }
         // GET: api/<AlunosController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            var response = _listarAlunosUseCase.Execute();
+
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                return StatusCode((int)response.StatusCode, response.Data);
+
+            return StatusCode((int)response.StatusCode, response.Messages);
         }
 
         // GET api/<AlunosController>/5

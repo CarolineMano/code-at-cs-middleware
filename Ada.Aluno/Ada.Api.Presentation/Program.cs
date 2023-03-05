@@ -15,6 +15,7 @@ builder.Services.AddScoped<ICriarAlunoUseCase, CriarAlunoUseCase>();
 builder.Services.AddScoped<IDeletarAlunoUseCase, DeletarAlunoUseCase>();
 builder.Services.AddScoped<IEditarAlunoUseCase, EditarAlunoUseCase>();
 builder.Services.AddScoped<IListarAlunoPorIdUseCase, ListarAlunoPorIdUseCase>();
+builder.Services.AddScoped<IListarAlunosUseCase, ListarAlunosUseCase>();
 builder.Services.AddSingleton<IPessoaRepository, PessoaRepository>();
 
 var app = builder.Build();

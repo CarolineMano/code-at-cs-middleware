@@ -14,5 +14,6 @@ namespace Ada.Aluno.Infra
 
         void Update(Core.Aluno aluno);
         Core.Aluno GetById(Guid id);
+        IEnumerable<Core.Aluno> GetAll();
     }
 }

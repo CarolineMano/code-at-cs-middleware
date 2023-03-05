@@ -19,7 +19,7 @@
             var aluno = _alunos.FirstOrDefault(a => a.Id == id);
 
             if(aluno is default(Core.Aluno))
-                throw new KeyNotFoundException();
+                throw new Exception("Id informado não existe");
 
             _alunos.Remove(aluno);
         }
@@ -29,7 +29,7 @@
             var alunoBd = _alunos.FirstOrDefault(a => a.Id == aluno.Id);
 
             if (alunoBd is default(Core.Aluno))
-                throw new KeyNotFoundException();
+                throw new Exception("Id informado não existe");
 
             _alunos.Remove(alunoBd);
             _alunos.Add(aluno);
@@ -40,9 +40,14 @@
             var aluno = _alunos.FirstOrDefault(a => a.Id == id);
 
             if (aluno is default(Core.Aluno))
-                throw new KeyNotFoundException();
+                throw new Exception("Id informado não existe");
 
             return aluno;
+        }
+
+        public IEnumerable<Core.Aluno> GetAll()
+        {
+            return _alunos;
         }
     }
 }
