@@ -15,7 +15,8 @@ namespace Ada.Aluno.Application.Mapper
             {
                 Id = aluno.Id,
                 Nome = aluno.Nome,
-                Cidade = aluno.Cidade
+                Cidade = aluno.Cidade,
+                NomeMae = aluno.NomeMae
             };
         }
     }

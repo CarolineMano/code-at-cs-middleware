@@ -4,6 +4,64 @@
     "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Infra\\Ada.Aluno.Infra.csproj": {}
   },
   "projects": {
+    "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Application\\Ada.Aluno.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Application\\Ada.Aluno.Application.csproj",
+        "projectName": "Ada.Aluno.Application",
+        "projectPath": "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Application\\Ada.Aluno.Application.csproj",
+        "packagesPath": "C:\\Users\\carol\\.nuget\\packages\\",
+        "outputPath": "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\carol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Core\\Ada.Aluno.Core.csproj": {
+                "projectPath": "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Core\\Ada.Aluno.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Core\\Ada.Aluno.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -82,6 +140,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Application\\Ada.Aluno.Application.csproj": {
+                "projectPath": "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Application\\Ada.Aluno.Application.csproj"
+              },
               "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Core\\Ada.Aluno.Core.csproj": {
                 "projectPath": "D:\\Meus Documentos\\Github\\code-at-cs-middleware\\Ada.Aluno\\Ada.Aluno.Core\\Ada.Aluno.Core.csproj"
               }
@@ -97,6 +158,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

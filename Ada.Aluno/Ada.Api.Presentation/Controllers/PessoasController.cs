@@ -1,4 +1,4 @@
-﻿using Ada.Aluno.Application.Interfaces;
+﻿using Ada.Aluno.Application.Interfaces.UseCases;
 using Ada.Aluno.Application.Requests;
 using Microsoft.AspNetCore.Mvc;
 

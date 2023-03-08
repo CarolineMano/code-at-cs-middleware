@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ada.Aluno.Infra
+namespace Ada.Aluno.Application.Interfaces.Repositories
 {
-    public interface IPessoaRepository
+    public interface IAlunoRepository
     {
         void Add(Core.Aluno aluno);
-
         void Delete(Guid id);
-
         void Update(Core.Aluno aluno);
         Core.Aluno GetById(Guid id);
         IEnumerable<Core.Aluno> GetAll();

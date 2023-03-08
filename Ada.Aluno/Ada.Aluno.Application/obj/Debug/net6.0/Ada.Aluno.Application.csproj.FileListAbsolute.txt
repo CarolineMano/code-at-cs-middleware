@@ -22,9 +22,7 @@ D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Application.dll
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Application.pdb
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Core.dll
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Infra.dll
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Core.pdb
-D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\bin\Debug\net6.0\Ada.Aluno.Infra.pdb
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.csproj.CopyComplete
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\Ada.Aluno.Application.dll
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Application\obj\Debug\net6.0\refint\Ada.Aluno.Application.dll

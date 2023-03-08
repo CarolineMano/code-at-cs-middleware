@@ -1,20 +1,20 @@
-﻿using Ada.Aluno.Application.Interfaces;
-using Ada.Aluno.Infra;
+﻿using Ada.Aluno.Application.Interfaces.Repositories;
+using Ada.Aluno.Application.Interfaces.UseCases;
 
 namespace Ada.Aluno.Application.UseCases
 {
     public class ListarAlunoPorIdUseCase : IListarAlunoPorIdUseCase
     {
-        private readonly IPessoaRepository _pessoaRepository;
-        public ListarAlunoPorIdUseCase(IPessoaRepository pessoaRepository)
+        private readonly IAlunoRepository _alunoRepository;
+        public ListarAlunoPorIdUseCase(IAlunoRepository alunoRepository)
         {
-            _pessoaRepository = pessoaRepository;
+            _alunoRepository = alunoRepository;
         }
         public ApiResponse Execute(Guid id)
         {
             try
             {
-                var aluno = _pessoaRepository.GetById(id);
+                var aluno = _alunoRepository.GetById(id);
 
                 return new ApiResponse
                 {

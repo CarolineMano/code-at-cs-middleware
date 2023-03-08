@@ -11,5 +11,6 @@ namespace Ada.Aluno.Application.Output
         public Guid Id { get; set; }
         public string Nome { get; set; }
         public string Cidade { get; set; }
+        public string? NomeMae { get; set; }
     }
 }

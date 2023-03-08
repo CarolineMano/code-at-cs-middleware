@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ada.Aluno.Application.Interfaces
+namespace Ada.Aluno.Application.Interfaces.UseCases
 {
-    public interface IDeletarAlunoUseCase
+    public interface IListarAlunoPorIdUseCase
     {
         ApiResponse Execute(Guid id);
     }

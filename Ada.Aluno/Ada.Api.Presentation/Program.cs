@@ -1,6 +1,8 @@
-using Ada.Aluno.Application.Interfaces;
+using Ada.Aluno.Application.Interfaces.Repositories;
+using Ada.Aluno.Application.Interfaces.UseCases;
 using Ada.Aluno.Application.UseCases;
 using Ada.Aluno.Infra;
+using Ada.Aluno.Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,12 +13,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<SqlServerConnection>(x => new SqlServerConnection(
+    builder.Configuration.GetConnectionString("MeuSqlLocal")));
+
 builder.Services.AddScoped<ICriarAlunoUseCase, CriarAlunoUseCase>();
 builder.Services.AddScoped<IDeletarAlunoUseCase, DeletarAlunoUseCase>();
 builder.Services.AddScoped<IEditarAlunoUseCase, EditarAlunoUseCase>();
 builder.Services.AddScoped<IListarAlunoPorIdUseCase, ListarAlunoPorIdUseCase>();
 builder.Services.AddScoped<IListarAlunosUseCase, ListarAlunosUseCase>();
-builder.Services.AddSingleton<IPessoaRepository, PessoaRepository>();
+builder.Services.AddScoped<IAlunoRepository, AlunoRepository>();
 
 var app = builder.Build();
 

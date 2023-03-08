@@ -1,20 +1,15 @@
-﻿using Ada.Aluno.Application.Interfaces;
+﻿using Ada.Aluno.Application.Interfaces.Repositories;
+using Ada.Aluno.Application.Interfaces.UseCases;
 using Ada.Aluno.Application.Requests;
-using Ada.Aluno.Infra;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ada.Aluno.Application.UseCases
 {
     public class EditarAlunoUseCase : IEditarAlunoUseCase
     {
-        private readonly IPessoaRepository _pessoaRepository;
-        public EditarAlunoUseCase(IPessoaRepository pessoaRepository)
+        private readonly IAlunoRepository _alunoRepository;
+        public EditarAlunoUseCase(IAlunoRepository alunoRepository)
         {
-            _pessoaRepository = pessoaRepository;
+            _alunoRepository = alunoRepository;
         }
         public ApiResponse Execute(Guid id, CriarAlunoRequest request)
         {
@@ -35,7 +30,7 @@ namespace Ada.Aluno.Application.UseCases
                     };
                 }
 
-                _pessoaRepository.Update(aluno);
+                _alunoRepository.Update(aluno);
 
                 return new ApiResponse
                 {

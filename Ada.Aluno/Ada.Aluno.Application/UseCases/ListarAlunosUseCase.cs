@@ -1,27 +1,21 @@
-﻿using Ada.Aluno.Application.Interfaces;
+﻿using Ada.Aluno.Application.Interfaces.Repositories;
+using Ada.Aluno.Application.Interfaces.UseCases;
 using Ada.Aluno.Application.Mapper;
-using Ada.Aluno.Application.Output;
-using Ada.Aluno.Infra;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ada.Aluno.Application.UseCases
 {
     public class ListarAlunosUseCase : IListarAlunosUseCase
     {
-        private readonly IPessoaRepository _pessoaRepository;
-        public ListarAlunosUseCase(IPessoaRepository pessoaRepository)
+        private readonly IAlunoRepository _alunoRepository;
+        public ListarAlunosUseCase(IAlunoRepository alunoRepository)
         {
-            _pessoaRepository = pessoaRepository;
+            _alunoRepository = alunoRepository;
         }
         public ApiResponse Execute()
         {
             try
             {
-                var alunos = _pessoaRepository.GetAll();
+                var alunos = _alunoRepository.GetAll();
                 var alunosDto = alunos.Select(p => ListaOutputMap.Mapear(p)).ToList();
 
 

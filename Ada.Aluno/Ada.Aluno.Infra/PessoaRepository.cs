@@ -1,6 +1,8 @@
-﻿namespace Ada.Aluno.Infra
+﻿using Ada.Aluno.Application.Interfaces.Repositories;
+
+namespace Ada.Aluno.Infra
 {
-    public class PessoaRepository : IPessoaRepository
+    public class PessoaRepository : IAlunoRepository
     {
         private static List<Core.Aluno> _alunos;
 

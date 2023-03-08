@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ada.Aluno.Application\Ada.Aluno.Application.csproj" />
+    <ProjectReference Include="..\Ada.Aluno.Infra\Ada.Aluno.Infra.csproj" />
   </ItemGroup>
 
 </Project>

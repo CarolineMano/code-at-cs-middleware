@@ -61,3 +61,10 @@ D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\o
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.pdb
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.genruntimeconfig.cache
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\ref\Ada.Api.Presentation.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Api.Presentation\obj\Debug\net6.0\Ada.Api.Presentation.MvcApplicationPartsAssemblyInfo.cs

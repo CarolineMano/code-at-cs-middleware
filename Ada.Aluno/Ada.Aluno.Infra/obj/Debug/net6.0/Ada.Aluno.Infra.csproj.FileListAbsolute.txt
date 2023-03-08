@@ -13,3 +13,5 @@ D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\De
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\refint\Ada.Aluno.Infra.dll
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\Ada.Aluno.Infra.pdb
 D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\obj\Debug\net6.0\ref\Ada.Aluno.Infra.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\bin\Debug\net6.0\Ada.Aluno.Application.dll
+D:\Meus Documentos\Github\code-at-cs-middleware\Ada.Aluno\Ada.Aluno.Infra\bin\Debug\net6.0\Ada.Aluno.Application.pdb

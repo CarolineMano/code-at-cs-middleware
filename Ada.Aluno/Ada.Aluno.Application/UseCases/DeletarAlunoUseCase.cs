@@ -1,26 +1,21 @@
-﻿using Ada.Aluno.Application.Interfaces;
-using Ada.Aluno.Infra;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Ada.Aluno.Application.Interfaces.Repositories;
+using Ada.Aluno.Application.Interfaces.UseCases;
 
 namespace Ada.Aluno.Application.UseCases
 {
     public class DeletarAlunoUseCase : IDeletarAlunoUseCase
     {
-        private readonly IPessoaRepository _pessoaRepository;
-        public DeletarAlunoUseCase(IPessoaRepository pessoaRepository)
+        private readonly IAlunoRepository _alunoRepository;
+        public DeletarAlunoUseCase(IAlunoRepository alunoRepository)
         {
-            _pessoaRepository = pessoaRepository;
+            _alunoRepository = alunoRepository;
         }
 
         public ApiResponse Execute(Guid id)
         {
             try
             {
-                _pessoaRepository.Delete(id);
+                _alunoRepository.Delete(id);
 
                 return new ApiResponse
                 {
