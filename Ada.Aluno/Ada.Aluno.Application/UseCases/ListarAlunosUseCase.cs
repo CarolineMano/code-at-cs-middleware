@@ -1,6 +1,7 @@
 ﻿using Ada.Aluno.Application.Interfaces.Repositories;
 using Ada.Aluno.Application.Interfaces.UseCases;
 using Ada.Aluno.Application.Mapper;
+using Ada.Aluno.Application.Requests;
 
 namespace Ada.Aluno.Application.UseCases
 {
@@ -11,11 +12,11 @@ namespace Ada.Aluno.Application.UseCases
         {
             _alunoRepository = alunoRepository;
         }
-        public ApiResponse Execute()
+        public ApiResponse Execute(ListarAlunoPorNomeECidadeRequest request)
         {
             try
             {
-                var alunos = _alunoRepository.GetAll();
+                var alunos = _alunoRepository.GetAll(request);
                 var alunosDto = alunos.Select(p => ListaOutputMap.Mapear(p)).ToList();
 
 

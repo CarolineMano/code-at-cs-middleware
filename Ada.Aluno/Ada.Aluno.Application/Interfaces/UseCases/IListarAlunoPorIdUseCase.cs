@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ada.Aluno.Application.Interfaces.UseCases
 {
-    public interface IListarAlunoPorIdUseCase
+    public interface ListarAlunosPorNomeECidadeRequest
     {
         ApiResponse Execute(Guid id);
     }

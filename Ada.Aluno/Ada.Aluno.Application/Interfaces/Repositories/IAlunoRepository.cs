@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ada.Aluno.Application.Requests;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,6 @@ namespace Ada.Aluno.Application.Interfaces.Repositories
         void Delete(Guid id);
         void Update(Core.Aluno aluno);
         Core.Aluno GetById(Guid id);
-        IEnumerable<Core.Aluno> GetAll();
+        IEnumerable<Core.Aluno> GetAll(ListarAlunoPorNomeECidadeRequest request);
     }
 }

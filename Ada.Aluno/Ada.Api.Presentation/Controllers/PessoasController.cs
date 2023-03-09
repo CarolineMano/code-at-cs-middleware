@@ -13,10 +13,10 @@ namespace Ada.Api.Presentation.Controllers
         private readonly ICriarAlunoUseCase _criarAlunoUseCase;
         private readonly IDeletarAlunoUseCase _deletarAlunoUseCase;
         private readonly IEditarAlunoUseCase _editarAlunoUseCase;
-        private readonly IListarAlunoPorIdUseCase _listarAlunoPorIdUseCase;
+        private readonly ListarAlunosPorNomeECidadeRequest _listarAlunoPorIdUseCase;
         private readonly IListarAlunosUseCase _listarAlunosUseCase;
 
-        public PessoasController(ICriarAlunoUseCase criarAlunoUseCase, IDeletarAlunoUseCase deletarAlunoUseCase, IEditarAlunoUseCase editarAlunoUseCase, IListarAlunoPorIdUseCase listarAlunoPorIdUseCase, IListarAlunosUseCase listarAlunosUseCase)
+        public PessoasController(ICriarAlunoUseCase criarAlunoUseCase, IDeletarAlunoUseCase deletarAlunoUseCase, IEditarAlunoUseCase editarAlunoUseCase, ListarAlunosPorNomeECidadeRequest listarAlunoPorIdUseCase, IListarAlunosUseCase listarAlunosUseCase)
         {
             _criarAlunoUseCase = criarAlunoUseCase;
             _deletarAlunoUseCase = deletarAlunoUseCase;
@@ -26,9 +26,9 @@ namespace Ada.Api.Presentation.Controllers
         }
         // GET: api/<AlunosController>
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get([FromBody] ListarAlunoPorNomeECidadeRequest request)
         {
-            var response = _listarAlunosUseCase.Execute();
+            var response = _listarAlunosUseCase.Execute(request);
 
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 return StatusCode((int)response.StatusCode, response.Data);

@@ -4,7 +4,7 @@ using Ada.Aluno.Application.Mapper;
 
 namespace Ada.Aluno.Application.UseCases
 {
-    public class ListarAlunoPorIdUseCase : IListarAlunoPorIdUseCase
+    public class ListarAlunoPorIdUseCase : ListarAlunosPorNomeECidadeRequest
     {
         private readonly IAlunoRepository _alunoRepository;
         public ListarAlunoPorIdUseCase(IAlunoRepository alunoRepository)

@@ -1,4 +1,5 @@
 ﻿using Ada.Aluno.Application.Interfaces.Repositories;
+using Ada.Aluno.Application.Requests;
 
 namespace Ada.Aluno.Infra.Repositories
 {
@@ -32,12 +33,12 @@ namespace Ada.Aluno.Infra.Repositories
             }
         }
 
-        public IEnumerable<Core.Aluno> GetAll()
+        public IEnumerable<Core.Aluno> GetAll(ListarAlunoPorNomeECidadeRequest request)
         {
             var alunos = new List<Core.Aluno>();
             
             using var command = _connection.CreateCommand();
-            command.CommandText = "SELECT * FROM Alunos";
+            command.CommandText = $"SELECT * FROM Alunos WHERE Nome LIKE '%{request.Nome}%' AND Cidade='{request.Cidade}'";
             using var reader = command.ExecuteReader();
 
             while (reader.Read())
