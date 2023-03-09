@@ -1,5 +1,6 @@
 ﻿using Ada.Aluno.Application.Interfaces.Repositories;
 using Ada.Aluno.Application.Interfaces.UseCases;
+using Ada.Aluno.Application.Mapper;
 using Ada.Aluno.Application.Requests;
 
 namespace Ada.Aluno.Application.UseCases
@@ -15,11 +16,12 @@ namespace Ada.Aluno.Application.UseCases
         {
             try
             {
+                var alunoDb = _alunoRepository.GetById(id);
                 var aluno = new Core.Aluno(
                     id,
-                    request.Nome,
-                    request.Cidade,
-                    request.NomeMae);
+                    request.Nome is null ? alunoDb.Nome : request.Nome,
+                    request.Cidade is null ? alunoDb.Cidade : request.Cidade,
+                    request.NomeMae is null ? alunoDb.NomeMae : request.NomeMae);
 
                 if (!aluno.IsValid)
                 {
@@ -35,7 +37,7 @@ namespace Ada.Aluno.Application.UseCases
                 return new ApiResponse
                 {
                     StatusCode = System.Net.HttpStatusCode.OK,
-                    Data = aluno
+                    Data = ListaOutputMap.Mapear(aluno)
                 };
             }
             catch (Exception ex)

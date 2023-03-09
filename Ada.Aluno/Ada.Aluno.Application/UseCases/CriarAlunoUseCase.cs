@@ -1,5 +1,6 @@
 ﻿using Ada.Aluno.Application.Interfaces.Repositories;
 using Ada.Aluno.Application.Interfaces.UseCases;
+using Ada.Aluno.Application.Mapper;
 using Ada.Aluno.Application.Requests;
 
 namespace Ada.Aluno.Application.UseCases
@@ -35,7 +36,7 @@ namespace Ada.Aluno.Application.UseCases
                 return new ApiResponse
                 {
                     StatusCode = System.Net.HttpStatusCode.Created,
-                    Data = aluno
+                    Data = ListaOutputMap.Mapear(aluno)
                 };
             }
             catch (Exception ex)

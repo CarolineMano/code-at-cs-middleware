@@ -24,7 +24,12 @@ namespace Ada.Aluno.Infra.Repositories
 
         public void Delete(Guid id)
         {
-            throw new NotImplementedException();
+            using (var command = _connection.CreateCommand())
+            {
+                command.CommandText = $"DELETE FROM Alunos WHERE Id='{id}'";
+
+                command.ExecuteNonQuery();
+            }
         }
 
         public IEnumerable<Core.Aluno> GetAll()
@@ -46,17 +51,34 @@ namespace Ada.Aluno.Infra.Repositories
             }
 
             return alunos;
-
         }
 
         public Core.Aluno GetById(Guid id)
         {
-            throw new NotImplementedException();
+            using var command = _connection.CreateCommand();
+            
+            command.CommandText = $"SELECT * FROM Alunos WHERE Id='{id}'";
+
+            using var reader = command.ExecuteReader();
+            reader.Read();
+
+            return new Core.Aluno(
+                    (Guid)reader["Id"],
+                    (string)reader["Nome"],
+                    (string)reader["Cidade"],
+                    (string)reader["NomeDaMae"]
+                    );
         }
 
         public void Update(Core.Aluno aluno)
         {
-            throw new NotImplementedException();
+            using (var command = _connection.CreateCommand())
+            {
+                command.CommandText = $"UPDATE Alunos SET Nome = '{aluno.Nome}', Cidade = '{aluno.Cidade}', NomeDaMae = '{aluno.NomeMae}'" +
+                    $"WHERE Id='{aluno.Id}'";
+
+                command.ExecuteNonQuery();
+            }
         }
     }
 }
